@@ -1,0 +1,23 @@
+name: project-ci
+on: [push]
+jobs:
+  run:
+    runs-on: [ubuntu-latest]
+    container: docker://ubuntu:latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: ci_run
+        env:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Your CI workflow goes here
+          g++ generate.cpp -o generate
+          chmod u=x generate
+          ./generate
+
+          g++ search.cpp -o search
+          chmod u=x search
+          ./search
+          
+          if cmp -s RES.txt OUT.txt ; then echo SUCESS ; else exit 1 ; fi
+          
