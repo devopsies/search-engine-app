@@ -35,5 +35,6 @@ int main(){
         //f = binary_search(t, t+N, x);
         
         cout << f << '\n';
+        cout << "small test";
     }
 }
