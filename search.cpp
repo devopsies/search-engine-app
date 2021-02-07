@@ -12,7 +12,7 @@ int main(){
     }
 
     // Experimental
-    //sort(t, t+N);
+    sort(t, t+N);
 
     freopen("IN.txt", "r", stdin);
     freopen("RES.txt", "w", stdout);
@@ -23,16 +23,16 @@ int main(){
         cin >> x;
 
         // searching for integer x in array t
-        bool f = false;
+        /*bool f = false;
         // Current method
         for(int i = 0; i < N; i++){
             if(x == t[i]){
                 f = true;
                 break;
             }
-        }
+        } */
         // Experimental
-        //f = binary_search(t, t+N, x);
+        f = binary_search(t, t+N, x);
         
         cout << f << '\n';
     }
