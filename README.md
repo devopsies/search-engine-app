@@ -1,0 +1,1 @@
+i would reduce time complexity's search
