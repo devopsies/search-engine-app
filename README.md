@@ -12,7 +12,7 @@ GitHub Actions connects all of your tools to automate every step of your develop
 
 ## Start using Github & Github Actions
 
-In this workshop, we're going to pretend to we're building a product in C++: our awesome search engine. First, ask to be added as a collaborator in this repo. Then clone the repo, create and switch to a new development branch `develop-your_name` and push it. When solving any of the following issues, start from your development branch, create and switch to a new branch `optimizing search` or `optimizing pipeline` depending on the issue you're working on, then trigger a pull request (PR). The workflow we described here is a simple scenario from the famous Git workflow. Refer to <a href="https://www.atlassian.com/git/tutorials/comparing-workflows" target="_blank">www.atlassian.com/git/tutorials/comparing-workflows</a> for more information.
+In this workshop, we're going to pretend we're building a product in C++: our awesome search engine. First, ask to be added as a collaborator in this repo. Then clone the repo, create and switch to a new development branch `develop-your_name` and push it. When solving any of the following issues, start from your development branch, create and switch to a new branch `optimizing search` or `optimizing pipeline` depending on the issue you're working on, then trigger a pull request (PR). The workflow we described here is a simple scenario from the famous Gitflow workflow. Refer to <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank">www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow</a> for more information.
 
 ### First issue
 
