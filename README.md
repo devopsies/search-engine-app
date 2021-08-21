@@ -8,7 +8,7 @@ Github is a provider of Internet hosting for software development and version co
 
 ## What is Github Actions?
 
-GitHub Actions connects all of your tools to automate every step of your development workflow. In summary, Github Actions is a CI/CD tool, hosted on Github (no in installation required, as opposed to Jenkins).
+GitHub Actions connects all of your tools to automate every step of your development workflow. In summary, Github Actions is a CI/CD tool, hosted on Github (no installation required, as opposed to Jenkins).
 
 ## Start using Github & Github Actions
 
