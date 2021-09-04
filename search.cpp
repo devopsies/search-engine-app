@@ -33,7 +33,7 @@ int main(){
          
         // Experimental
         f = binary_search(t, t+N, x);
-        }
+        
         cout << f << '\n';
     }
 }
