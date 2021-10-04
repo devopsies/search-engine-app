@@ -1,18 +1,20 @@
-# DevSecOps Workshops: Github & Github Actions
+# DevSecOps Workshops: Git & Github
 
-This is a brief introduction to Github Actions, followed by a workshop. For the workshop material, visit <a href="https://github.com/mdnfiras/devsecops-github-actions" target="_blank">github.com/mdnfiras/devsecops-github-actions</a>. For a complete documentation, visit <a href="https://docs.github.com/en/actions" target="_blank">docs.github.com/en/actions</a>.
+This is a brief introduction to Git and Github, followed by a workshop. For the workshop material, visit <a href="https://github.com/mdnfiras/devsecops-git-github" target="_blank">github.com/mdnfiras/devsecops-git-github</a>.
+
+## What is Git?
+
+Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
 
 ## What is Github?
 
 Github is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.
 
-## What is Github Actions?
-
-GitHub Actions connects all of your tools to automate every step of your development workflow. In summary, Github Actions is a CI/CD tool, hosted on Github (no installation required, as opposed to Jenkins).
-
-## Start using Github & Github Actions
+## Start using Git & Github
 
 In this workshop, we're going to pretend we're building a product in C++: our awesome search engine. First, ask to be added as a collaborator in this repo. Then clone the repo, create and switch to a new development branch `develop-your_name` and push it. When solving any of the following issues, start from your development branch, create and switch to a new branch `optimizing search` or `optimizing pipeline` depending on the issue you're working on, then trigger a pull request (PR). The workflow we described here is a simple scenario from the famous Gitflow workflow. Refer to <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank">www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow</a> for more information.
+
+In this workshop, you'll be be basically changing code and pushing to new branches, and triggering pull requests to your `develop-your_name` branch.
 
 ### First issue
 
