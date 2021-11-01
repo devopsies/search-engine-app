@@ -1,4 +1,4 @@
-# DevSecOps Workshops: Github & Github Actions
+# DevSecOps Workshops: Git & Github
 
 This is a brief introduction to Git, Github, and Github Actions. For the workshop material, visit <a href="https://github.com/devopsies/search-engine-app" target="_blank">github.com/devopsies/search-engine-app</a>.
 
@@ -6,7 +6,7 @@ This is a brief introduction to Git, Github, and Github Actions. For the worksho
 
 Git is a software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. For more information, visit <a href="https://git-scm.com/doc">git-scm.com/doc</a>.
 
-## What is Github?
+## What is Git?
 
 Github is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features. For more information, visit <a href="https://docs.github.com/en/github">docs.github.com/en/github</a>.
 
