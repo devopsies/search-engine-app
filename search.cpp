@@ -12,7 +12,7 @@ int main(){
     }
 
     // Experimental
-    //sort(t, t+N);
+    sort(t, t+N);
 
     freopen("IN.txt", "r", stdin);
     freopen("RES.txt", "w", stdout);
@@ -31,7 +31,7 @@ int main(){
               //  break;
             //}
         //}
-        Experimental
+        //Experimental
         f = binary_search(t, t+N, x);
         
         cout << f << '\n';
