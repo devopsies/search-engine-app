@@ -2,24 +2,29 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage ('Generate the test cases') {
             steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-           steps {
                 sh( returnStdout: false, script: """#!/bin/sh
-                    echo gg
+                    g++ generate.cpp -o generate
+                    chmod u=x generate
+                    ./generate
                     """.stripIndent()
                 )
-                sh "echo gg"
-                )
             }
         }
-        stage('Deploy') {
+        stage ('Run the search engine') {
             steps {
-                echo 'Deploying....'
+                sh "g++ search.cpp -o search"
+                sh "chmod u=x search"
+                sh "./search"
+            }
+        }
+        stage ('Verify the results') {
+            steps {
+                sh( returnStdout: false, script: """#!/bin/sh
+                    if cmp -s RES.txt OUT.txt ; then echo SUCCESS ; else exit 1 ; fi
+                    """.stripIndent()
+                )
             }
         }
     }
