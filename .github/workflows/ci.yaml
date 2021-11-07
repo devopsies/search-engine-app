@@ -2,8 +2,8 @@ name: project-ci
 on: [push]
 jobs:
   run:
-    runs-on: [ubuntu-latest]
-    container: docker://gcc:latest
+    #runs-on: [ubuntu-latest]
+    #container: docker://gcc:latest
     steps:
       - uses: actions/checkout@v2
       - name: ci_run
